@@ -151,18 +151,18 @@ saveas(gcf,'2DFFT.png')
 
 % *%TODO* :
 %Select the number of Training Cells in both the dimensions.
-Tr = 1;
-Td = 2;
+Tr = 12;
+Td = 3;
 
 % *%TODO* :
 %Select the number of Guard Cells in both dimensions around the Cell under 
 %test (CUT) for accurate estimation
-Gr = 1;
-Gd = 2;
+Gr = 4;
+Gd = 1;
 
 % *%TODO* :
 % offset the threshold by SNR value in dB
-offset = 10;
+offset = 15;
 
 % *%TODO* :
 %Create a vector to store noise_level for each iteration on training cells
