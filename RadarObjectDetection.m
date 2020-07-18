@@ -15,8 +15,8 @@ Rmax = 200;
 % *%TODO* :
 % define the target's initial position and velocity. Note : Velocity
 % remains constant
- R = 110;
- v = 20;
+ R = 150;
+ v = 30;
  x = R;
 
 %% FMCW Waveform Generation
